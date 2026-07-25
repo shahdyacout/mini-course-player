@@ -5,8 +5,9 @@ import '../../../../core/errors/failures.dart';
 import '../../../../core/network/network_info.dart';
 import '../../domain/entities/course.dart';
 import '../../domain/repositories/course_repository.dart';
-import '../datasource/course_local_datasource.dart';
-import '../datasource/progress_local_datasource.dart';
+import '../datasources/course_local_datasource.dart';
+import '../datasources/progress_local_datasource.dart';
+
 
 
 /// بينفذ عقد الـ domain (CourseRepository). ده المكان الوحيد اللي عارف

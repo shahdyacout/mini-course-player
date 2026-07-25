@@ -1,8 +1,8 @@
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'core/network/network_info.dart';
-import 'features/courses/data/datasource/course_local_datasource.dart';
-import 'features/courses/data/datasource/progress_local_datasource.dart';
+import 'features/courses/data/datasources/course_local_datasource.dart';
+import 'features/courses/data/datasources/progress_local_datasource.dart';
 import 'features/courses/data/repositories/course_repository_impl.dart';
 import 'features/courses/domain/repositories/course_repository.dart';
 import 'features/courses/domain/usecases/get_all_progress.dart';
