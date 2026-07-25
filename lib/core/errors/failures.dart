@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 
 /// الأساس اللي كل أنواع الـ Failures بترث منه. بتتحول لـ Left جوه
-/// Either<Failure, T> بدل ما نرمي Exception خام للطبقات العليا.
+/// Either`<Failure, T>` بدل ما نرمي Exception خام للطبقات العليا.
 abstract class Failure extends Equatable {
   final String message;
   const Failure(this.message);

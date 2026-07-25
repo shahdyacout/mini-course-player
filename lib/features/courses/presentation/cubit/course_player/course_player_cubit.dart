@@ -2,7 +2,6 @@ import 'dart:async';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:video_player/video_player.dart';
 import '../../../../../core/network/network_info.dart';
-import '../../../../../core/usecases/usecase.dart';
 import '../../../domain/services/progress_calculator.dart';
 import '../../../domain/usecases/get_progress.dart';
 import '../../../domain/usecases/save_progress.dart';

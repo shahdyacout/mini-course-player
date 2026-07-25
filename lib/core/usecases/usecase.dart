@@ -4,10 +4,10 @@ import 'package:equatable/equatable.dart';
 import '../errors/failures.dart';
 
 
-/// شكل موحّد لأي "عملية عمل واحدة" (Use Case). [Type] هو نوع النتيجة
+/// شكل موحّد لأي "عملية عمل واحدة" (Use Case). [Result] هو نوع النتيجة
 /// لو نجحت، و[Params] هو المدخلات اللي العملية محتاجاها.
-abstract class UseCase<Type, Params> {
-  Future<Either<Failure, Type>> call(Params params);
+abstract class UseCase<Result, Params> {
+  Future<Either<Failure, Result>> call(Params params);
 }
 
 /// نوع علامة (marker) للـ UseCases اللي مش محتاجة أي مدخلات.
